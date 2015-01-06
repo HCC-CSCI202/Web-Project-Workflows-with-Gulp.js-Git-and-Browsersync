@@ -1,0 +1,23 @@
+{
+  "name": "Web-Project-Workflows-with-Gulp.js-Git-and-BrowserSync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HCC-CSCI202/Web-Project-Workflows-with-Gulp.js-Git-and-Browsersync.git"
+  },
+  "author": "Tyler Youngblood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HCC-CSCI202/Web-Project-Workflows-with-Gulp.js-Git-and-Browsersync/issues"
+  },
+  "homepage": "https://github.com/HCC-CSCI202/Web-Project-Workflows-with-Gulp.js-Git-and-Browsersync",
+  "devDependencies": {
+    "browser-sync": "^1.8.3",
+    "gulp": "^3.8.10"
+  }
+}

@@ -1,0 +1,1 @@
+Core images are images required by the slide deck. Do not delete them unless you also delete the corresponding <img> tags in the slide deck code. 

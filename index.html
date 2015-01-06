@@ -99,127 +99,13 @@ $(document).ready(function(){
 <div class="slide">
   <h1>How to Use these Slides</h1>
 
-  <p>This is an example deck of FathomJS + CodeMirror. 
-  <br>Use the arrow keys to browse it, and then view source to see how it works.
-  </p>
+  <p>Hit F11 to toggle full-screen view.</p> 
+  <img src="img/core/f11-key.jpg" alt="f11 key">
+  <p>Use the &larr; & &rarr; arrow keys to control slides.</p>
 </div>
 
-<div class="slide">
-  <h1>Runnable JS Snippet</h1>
-  
-  <p>The JS will be evaluated.</p>
 
-  <textarea class="runnable js">
-var favoriteFruits = ['blackberries', 'blueberries'];
-for (var i = 0; i &lt; favoriteFruits.length; i++) {
-  $('#demo').append('I like to stuff my face with ' + favoriteFruits[i]);
-}
-  </textarea>
 
-</div>
-
-<div class="slide">
-  <h1>Runnable HTML Snippet</h1>
-  
-  <p>The HTML will be appended to the #demo DIV.</p>
-
-  <textarea class="runnable html">
-&lt;img width="550" height="250" src="
-http://chart.apis.google.com/chart?
-cht=p&
-chs=550x250&
-chd=t:10,80,10&
-chco=FAFAFA,FFFF00,FAFAFA&
-chl=Does%20not%20resemble%20Pac-man|Resembles%20Pac-man&
-chtt=Percentage%20of%20Google%20Chart%20Which%20Resembles%20Pac-man"&gt;
-  </textarea> 
-
-</div>
-
-<div class="slide">
-  <h1>Runnable Script Snippet</h1>
-  
-  <p>The SCRIPT tags will be appended to the BODY.</p>
-
-  <textarea class="runnable script">
-&lt;script src="http://imagine-it.org/api.php?callback=onLoadData"&gt;
-&lt;/script&gt;
-&lt;script&gt;
-function onLoadData(json) {
-  $('#demo').html('<h1> YO YO YO ' + json.name + '</h1>');
-}
-&lt;/script&gt;
-  </textarea>
-
-</div>
-
-<div class="slide">
-  <h1>Static Script Snippet</h1>
-
-<p>You can also just do non-runnable snippets as well.</p>
-<textarea class="script">
-&lt;script src="http://apidomain.com/library.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-apiNamespace.apiFunction();
-&lt;/script&gt;
-  </textarea>
-
-</div>
-
-<div class="slide">
-  <h1>Slide backgrounds</h1>
-
-  <p>I rather like to use these <a href="http://lea.verou.me/css3patterns/">CSS3 patterns</a>
-  to liven up my slide background. You can try them out here:
-  </p>
-
-  <select name="backgrounds" style="font-size:36px;">
-   <option>arrows
-   <option>zigzag
-   <option>weave
-   <option>upholstery
-   <option>starry
-   <option>marrakesh
-   <option>rainbow
-   <option>carbon
-   <option>carbonfibre
-   <option>argyle
-   <option>hearts
-   <option>steps
-   <option>waves
-   <option>cross
-   <option>yinyang
-   <option>stars
-   <option>bradybunch
-   <option>shippo
-   <option>silver
-   <option>seigaiha
-   <option>japanesecube
-   <option>polkadot
-   <option>houndstooth
-   <option>checkerboard
-   <option>diagonalcheckerboard
-   <option>tartan
-   <option>madras
-   <option>linedpaper
-   <option>blueprintgrid
-   <option>tablecloth
-   <option>diagonalstripes
-   <option>cicadastripes
-   <option>verticalstripes
-   <option>horizontalstripes
-  </select>
-
- <p>If you find one you like, you might also change the .slide h1 to the background color
- for a nice effect.
- </p>
-
-  <script>
-  $('select[name="backgrounds"]').change(function() {
-    $('body').attr('class', $(this).val());
-  });
-  </script>
-</div>
 
 <div class="slide">
   <h1>Thats it, folks</h1>
